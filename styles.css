@@ -37,6 +37,10 @@ footer {
   color: blueviolet;
   font-size: 48px;
 }
+.artistv2 {
+  color:midnightblue;
+  font-size: 56px;
+}
 #artist-profile {
   width: 50%;
   margin: 0px auto;
