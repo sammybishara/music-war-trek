@@ -2,7 +2,8 @@ import { artists } from '/data/artists.js';
 
 const urlParams = new URLSearchParams(window.location.search);
 const artistId = urlParams.get('id');
-const thisArtist = artists.find((artist) => (artist.id = artistId));
+console.log(`getting ${artistId}`);
+const thisArtist = artists.find((artist) => artist.id === artistId);
 
 document.getElementById('artistName').innerHTML = thisArtist.artistName;
 document.getElementById('artistDescription').innerHTML =
